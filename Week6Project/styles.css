@@ -9,6 +9,13 @@ main {
     margin: auto;
 }
 
+header {
+    background: url('images/logo.png') no-repeat right;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 nav {
     font-weight: bold;
     text-align: center;
