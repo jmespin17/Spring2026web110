@@ -51,3 +51,9 @@ nav ul li a {
     text-decoration: none;     
     font-weight: bold;
 }
+
+nav ul li a:hover {
+    background-color: #FFADBB; 
+    color: #333333;               
+    transform: scale(1.05);    
+}
