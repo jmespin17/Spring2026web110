@@ -31,3 +31,22 @@ body {
     background-color: #FEEBC2;
     padding: 1em;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 0.5em;         
+}
+
+nav ul li a {
+    display: block;     
+    padding: 0.5em 1em;       
+    background-color: #FF1F40; 
+    color: black;           
+    text-decoration: none;     
+    font-weight: bold;
