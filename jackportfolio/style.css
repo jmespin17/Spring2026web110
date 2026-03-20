@@ -57,3 +57,17 @@ nav ul li a:hover {
     color: #333333;               
     transform: scale(1.05);    
 }
+
+a {
+    color: #FF0A33;      
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #FF7088;  
+    text-decoration: underline; 
+}
+
+a:visited {
+    color: #8F0018;
+}
