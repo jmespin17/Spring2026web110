@@ -10,13 +10,10 @@
 #wrapper {
     width: 80%;
     margin: 0 auto; 
-    background-color: #ffffff;
+    background-color: #FEE4AE;
 }
 
 .resume-page {
     background-color: #FEE4AE;
 }
 
-.resume-page #wrapper {
-    background-color: #FEE4AE;
-}
