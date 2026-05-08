@@ -5,10 +5,31 @@
 
 body {
     font-size: 1em;
+     background-color: #C4BEBB;
+     color: #272929;
+}
+
+
+nav a {
+    background-color: #9A2257;
+    color: #C4BEBB;
+    border-radius: 20px;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+    margin-top: -12px;
 }
 
 h1 {
     font-size: 3em;
+    color: #494786;
 }
 
 h2 {
@@ -43,4 +64,16 @@ img:target {
 
 .game-boy {
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    #wrapper {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #wrapper {
+        width: 80%;
+    }
 }
