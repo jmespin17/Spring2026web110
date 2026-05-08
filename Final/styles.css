@@ -1,6 +1,7 @@
 #wrapper {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
+    position: relative;
 }
 
 body {
@@ -9,6 +10,9 @@ body {
      color: #272929;
 }
 
+nav {
+    margin-bottom: 60px;
+}
 
 nav a {
     background-color: #9A2257;
@@ -27,6 +31,10 @@ nav ul {
     margin-top: -12px;
 }
 
+.bottomnav {
+    margin-top: 5em;
+}
+
 h1 {
     font-size: 3em;
     color: #494786;
@@ -34,14 +42,31 @@ h1 {
 
 h2 {
     font-size: 2em;
+    text-align: center;
 }
 
 h3 {
     font-size: 1.5em;
+    text-align: center;
 }
 
 p {
     font-size: 1em;
+    margin: 0 auto;
+}
+
+.subtitle {
+    text-align: center !important;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -1.25em;
+    font-size: 1.25em;
+}
+
+.intro {
+    text-indent: 3em;
+    text-align: justify;
+    
 }
 
 
@@ -50,20 +75,29 @@ p {
 
 
 img:target {
-    border: 3px solid rgb(255, 0, 0);
-    outline: 3px solid rgb(255, 0, 0);
+    border: 3px solid #9A2257;
+    outline: 3px solid #9A2257;
 }
 
-#gallery {
-    text-align: center;
+#content {
+    display: flex;
 }
 
 #gallery img {
     width: 25%;
+    margin-left: 9em;
+    margin-top: 5em;
 }
 
-.game-boy {
-    text-align: center;
+.gameboy {
+    display: flex;
+    align-items: center;
+}
+
+.gameboy p {
+    min-width: 10px;
+    margin-left: 200px;
+    margin-right: 9em;
 }
 
 @media (min-width: 768px) {
@@ -76,4 +110,63 @@ img:target {
     #wrapper {
         width: 80%;
     }
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.formsection {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+input[type="text"],
+textarea,
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #272929;
+    background-color: #C4BEBB;
+    width: 100%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #9A2257;
+    color: #C4BEBB;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 70px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: middle;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.boxart {
+    display: flex;
+    gap: 10px;
+}
+
+.boxart img {
+    width: 20%;
+    margin-top: 2em;
+}
+
+.mario {
+    float: right;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
