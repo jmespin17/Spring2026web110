@@ -1,31 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="final1.html">Home</a></li>
-            <li><a href="final2.html">Detail</a></li>
-            <li><a href="final3.html">Form</a></li>
-            <li><a href="final4.html">Credits</a></li>
-        </ul>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>What Kind Of Game Boy Are You?</h1>
+            </header>
 
- 
+            <nav>
+                <ul>
+                    <li><a href="final1.html">Home</a></li>
+                    <li><a href="final2.html">Detail</a></li>
+                    <li><a href="final3.html">Form</a></li>
+                    <li><a href="final4.html">Credits</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h3>Take A Survey</h3>
+                <p>Please complete the form below to tell us about yourself!</p>
 
-    <nav>
-        <ul>
-            <li><a href="final1.html">Home</a></li>
-            <li><a href="final2.html">Detail</a></li>
-            <li><a href="final3.html">Form</a></li>
-            <li><a href="final4.html">Credits</a></li>
-        </ul>
-    </nav>
-    
-</body>
+                <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+
+                    <label for="playername">Name:</label>
+                    <input type="text" id="playername" name="playername" required>
+
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+
+
+                    <label>Which Game Boy is your favorite?</label>
+                    <input type="radio" id="gameboy" name="favorite" value="gameboy">
+                    <label for="gameboy">Game Boy</label>
+
+                    <input type="radio" id="pocket" name="favorite" value="pocket">
+                    <label for="pocket">Game Boy Pocket</label>
+
+                    <input type="radio" id="color" name="favorite" value="color">
+                    <label for="color">Game Boy Color</label>
+
+                    <input type="radio" id="advance" name="favorite" value="advance">
+                    <label for="advance">Game Boy Advance</label>
+
+                    <input type="radio" id="sp" name="favorite" value="sp">
+                    <label for="sp">Game Boy SP</label>
+
+                    <input type="radio" id="micro" name="favorite" value="micro">
+                    <label for="micro">Game Boy Micro</label>
+
+
+                    <label>Check the games you've played.</label>
+                    <input type="checkbox" id="tetris" name="tetris" value="tetris">
+                    <label for="tetris">Tetris</label>
+
+                    <input type="checkbox" id="pokemon" name="pokemon" value="pokemon">
+                    <label for="pokemon">Pokemon (any)</label>
+
+                    <input type="checkbox" id="mario" name="mario" value="mario">
+                    <label for="mario">Mario (any)</label>
+
+                    <input type="checkbox" id="zelda" name="zelda" value="zelda">
+                    <label for="zelda">The Legend of Zelda (any)</label>
+
+                    <input type="checkbox" id="kirby" name="kirby" value="kirby">
+                    <label for="kirby">Kirby's Dream Land</label>
+
+                    <label for="gamerscore">How much of a gamer are you?</label>
+                    <select id="gamerscore" name="gamerscore">
+                        <option value="low">I like Mario</option>
+                        <option value="medium">I've played a Game Boy</option>
+                        <option value="high">I still own a Game Boy to this day</option>
+                        <option value="I'm sorry">This is insulting</option>
+                    </select>
+
+                    <label for="response">What is your favorite video game and why?</label>
+                    <textarea id="response" name="response" rows="5"></textarea>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                </form>
+            </main>
+
+            <nav>
+                <ul>
+                    <li><a href="final1.html">Home</a></li>
+                    <li><a href="final2.html">Detail</a></li>
+                    <li><a href="final3.html">Form</a></li>
+                    <li><a href="final4.html">Credits</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p>&copy; 2026 John Espinosa</p>
+            </footer>
+         </div>
+    </body>
 </html>
