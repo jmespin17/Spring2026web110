@@ -2,3 +2,12 @@ img:target {
     border: 3px solid rgb(255, 0, 0);
     outline: 3px solid rgb(255, 0, 0);
 }
+
+#gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 18%;
+}
