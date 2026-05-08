@@ -4,12 +4,11 @@ img:target {
 }
 
 #gallery {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 #gallery img {
-    width: 8%;
+    width: 25%;
 }
 
 .game-boy {
