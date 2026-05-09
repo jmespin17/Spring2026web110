@@ -78,7 +78,6 @@ img:target {
 
 #gallery img {
     width: 25%;
-    margin-left: 9em;
     margin-top: 5em;
 }
 
@@ -88,19 +87,28 @@ img:target {
 }
 
 .gameboy p {
-    margin-left: 200px;
-    margin-right: 9em;
+    margin-left: 10px
 }
 
 @media (min-width: 768px) {
     #wrapper {
         width: 90%;
     }
+    .gameboy p {
+        margin-left: 10px;
+    }
+    #gallery img {
+        margin-left: 2em;
+    }
 }
 
 @media (min-width: 1024px) {
     #wrapper {
         width: 80%;
+    }
+    .gameboy p {
+        max-width: 500px;
+        margin-left: 10em;
     }
 }
 
