@@ -170,3 +170,9 @@ input[type="radio"] {
     top: 0;
     right: 0;
 }
+
+.credits {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
